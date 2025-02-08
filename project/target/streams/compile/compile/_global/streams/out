@@ -1,0 +1,37 @@
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:16:25: value %% is not a member of String
+[error]     "com.typesafe.akka" %% "akka-actor" % Versions.akka,
+[error]                         ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:17:25: value %% is not a member of String
+[error]     "com.typesafe.akka" %% "akka-actor-typed" % Versions.akka,
+[error]                         ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:18:25: value %% is not a member of String
+[error]     "com.typesafe.akka" %% "akka-stream" % Versions.akka,
+[error]                         ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:19:25: value %% is not a member of String
+[error]     "com.typesafe.akka" %% "akka-http" % Versions.akkaHttp,
+[error]                         ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:20:25: value %% is not a member of String
+[error]     "com.typesafe.akka" %% "akka-http-testkit" % Versions.akkaHttp % Test,
+[error]                         ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:20:70: not found: value Test
+[error]     "com.typesafe.akka" %% "akka-http-testkit" % Versions.akkaHttp % Test,
+[error]                                                                      ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:21:17: value % is not a member of String
+[error]     "org.slf4j" % "slf4j-api" % Versions.slf4jlog
+[error]                 ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:25:25: value %% is not a member of String
+[error]     "de.heikoseeberger" %% "akka-http-json4s" % Versions.json4s,
+[error]                         ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:26:18: value %% is not a member of String
+[error]     "org.json4s" %% "json4s-native" % Versions.json4sNative
+[error]                  ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:30:20: value %% is not a member of String
+[error]     "org.tpolecat" %% "doobie-core" % Versions.doobie,
+[error]                    ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:31:20: value %% is not a member of String
+[error]     "org.tpolecat" %% "doobie-postgres" % Versions.doobie,
+[error]                    ^
+[error] /home/raphael/Documentos/Teste/Scala/api-pegadapet/project/DependenciesDefinition.scala:32:20: value %% is not a member of String
+[error]     "org.tpolecat" %% "doobie-hikari" % Versions.doobie
+[error]                    ^
+[error] 12 errors found
