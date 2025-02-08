@@ -1,7 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/home/raphael/Documentos/Teste/Scala/api-pegadapet/}root/products {file:/home/raphael/Documentos/Teste/Scala/api-pegadapet/}root/test:products, None, None)[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 9 Scala sources to /home/raphael/Documentos/Teste/Scala/api-pegadapet/target/scala-2.13/classes ...[0m
-[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 5 s, completed 28 de jan. de 2025 20:35:31[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
