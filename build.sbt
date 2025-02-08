@@ -13,9 +13,13 @@ lazy val root = (project in file("."))
     libraryDependencies ++= core ++ serialization ++ database
   )
 
-//resolvers += ("Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/").withAllowInsecureProtocol(true)
-
 lazy val binSettings = Seq(
   Compile / mainClass := Some("pegadapet.main.Start"),
-  Universal / javaOptions ++= Seq("-Djava.net.preferIPv4Stack=true")
+  Universal / javaOptions ++= Seq(
+    "-Djava.net.preferIPv4Stack=true"
+  ),
+  bashScriptExtraDefines ++= Seq(
+    """addJava "-XX:HeapDumpPath=log/OOM-`date +%Y%m%d%H%M%S`.dump"""",
+    """for PARAM in $CUSTOM_PARAMS; do addJava $PARAM; done"""
+  )
 )
